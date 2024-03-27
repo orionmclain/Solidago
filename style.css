@@ -1,0 +1,56 @@
+body {
+    background: rgb(41, 75, 25);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(190, 190, 190);
+    margin: 0px;
+    padding: 20px;
+}
+h1 {
+    color: rgb(22, 87, 22);
+    background: black;
+    text-align: center;
+}
+
+info {
+    display: text-align:center;
+}
+ul {
+    display: inline-table;
+    margin: 0; 
+    padding: 0;
+    list-style-type: none;
+
+}
+
+li {
+    display: inline;
+    margin: 0 30px 0 0;
+}
+
+section {
+    background-color: rgb(131, 131, 101);
+    padding: 0;
+    margin: 0;
+}
+
+p { 
+    color: black;
+    padding: 5px 10px;
+    font-size: 20px
+}
+
+pages {
+    color: green;
+    display: flex;
+    padding: 20px;
+}
+button {
+    width: 200px;
+}
+
