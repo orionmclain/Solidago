@@ -7,13 +7,14 @@ body {
 }
 
 header {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(57, 90, 64);
     margin: 0px;
     padding: 20px;
 }
 h1 {
-    color: rgb(22, 87, 22);
-    background: black;
+    color: rgb(212, 226, 212);
+    background: ;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -93,7 +94,16 @@ h2 {
 }
 .planttitle{
     text-align: center;
+    display: flex;
+    margin: 0 20%;
+    padding: 10% 5%;
+    font-size: 250%;
 }
+
+.planttitle img{
+    
+}
+
 
 .plantlist h4 {
 
