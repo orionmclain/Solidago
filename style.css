@@ -1,5 +1,14 @@
+div { border: 1px dotted pink }
+p   { border: 1px solid green }
+a   { border: 2px solid yellow }
+li  { border: 1px dashed cyan }
+img { border: 1px solid purple}
+*:hover { 
+    outline:1px blue solid;
+  } 
+
 body {
-    background: rgb(41, 75, 25);
+    background: rgb(124, 156, 108);
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     color: white;
     margin: 0;
@@ -14,7 +23,7 @@ header {
 h1 {
     color: rgb(212, 226, 212);
     background: ;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -32,11 +41,11 @@ h1 {
 
 .info li {
     display: inline;
-    margin: 0 30px 0 0;
+    margin: 0 100px 0 0;
 }
 
 section {
-    background-color: rgb(131, 131, 101);
+    background-color: rgb(160, 199, 162);
     padding: 0;
     margin: 0;
 }
@@ -56,14 +65,19 @@ p {
     color: green;
     display: flex;
     padding: 10px;
+    font-size: 20px;
 }
 button {
-    width: 200px;
-    font-size: 18px;
+    width: 180px;
+    height:
+    font-size: ;
 }
-.pages img {
+img.button  {
     display: flex;
     vertical-align: middle;
+    object-fit: cover;
+    margin: 10%;
+    width: 100px;
 }
 
 .container_about div {
@@ -80,41 +94,21 @@ h2 {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 30px;
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: rgb(133, 156, 133);
-    text-decoration-thickness: 5%;
+    font-size: 70px;
     text-shadow: 2px 2px rgb(131, 131, 131);
 }
-
-.plantlist  {
-    list-style-type: none;
-    color: black;
-}
-.planttitle{
-    text-align: center;
-    display: flex;
-    margin: 0 20%;
-    padding: 10% 5%;
-    font-size: 250%;
+.plantcoverimg {
+    opacity: 25%;
+    height:;
 }
 
-.planttitle img{
-    
-}
+
 
 
 .plantlist h4 {
 
 }
-.plantlist p{
-    font-size: 20px;
-}
 
-.plantlist .plantimage {
-    size: 40px 40px;
-}
 
 .scientific {
     font-style: italic;
@@ -133,9 +127,59 @@ h2 {
     margin: 0px;
     padding: 0 10%;
 }
+.plantlist p{
+    font-size: 20px;
+    width: 100%;
+    
+}
+.planttitle{
+    text-align: center;
+    margin: 0 0%;
+    padding: 1% 2%;
+    font-size: 250%;
+}
+.plantlist  li{
+    list-style-type: none;
+    color: black;
+    display: flex;
+    width: 100%
+}
+
+
+.listitem {
+    overflow: hidden;
+    width: 50%;
+    margin: 2% 0%;
+    display: flex;
+    vertical-align: center;
+    
+}
+
+.image {
+    float: left;
+    overflow: hidden;
+    width: 50%;
+
+}
 
 .plantimage {
+    height: 250px; 
+    width: 250px;
+    object-fit: cover;
+}
 
+
+
+.plantinfo {
+    text-align: center;
+    padding: 0 0%;
+    margin: 0% 0%;
+    width: 50%;
+    
+}
+
+img.plantimage:hover {
+    
 }
 
 .plantcoverimg {
