@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
   <title>Solidago Native Plants</title>
 </head>
 <body>
@@ -15,169 +16,273 @@
       <li>solidagonative@gmail.com</li>
     </ul>
   </header>
-<section>
-  <pages>
+  <section>
+    <ul class="nav">
+      <li><div onclick="window.location.href = 'index.html';">Home</div></li>
+      <li><div onclick="window.location.href = 'about.html';">About the Owner</div></li>
+      <li><div onclick="window.location.href = 'whynative.html';">Why Native Plants</div></li>
+      <li><div onclick="window.location.href = 'plants.html';" class="active">Plant List</div></li>
+      <li><div onclick="window.location.href = 'services.html';">Sales and Services</div></li>
+      <li><div onclick="window.location.href = 'meadows.html';">Thoughts on Meadows</div></li>
+      <li><div onclick="window.location.href = 'goldenrod.html';">Goldenrod Myth</div></li>
+      <li><div onclick="window.location.href = 'contact.html';">Contact us</div></li>
+    </ul>
+    <!-- 
+    <pages>
 
-    <button onclick="window.location.href = 'index.html';"> Home
-      <img decoding="async" class="skip-lazy bwg_standart_thumb_img_0  bwg_lazyload " data-id="42" data-width="195.00" data-height="181.00" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/solidago-new-sign-1.jpg?bwg=1680879838" alt="Contact Us" title="Contact Us" style="height: 100%; width: 237.673px; max-width: initial;">
-    </button>
+      <button class="tabs" onclick="window.location.href = 'index.html';"> Home
+        <img decoding="async" class="buttonimg" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/solidago-new-sign-1.jpg?bwg=1680879838" >
+      </button>
 
-    <button onclick="window.location.href = 'about.html';"> About the Owner 
-      <img decoding="async" class="skip-lazy bwg_standart_thumb_img_0  bwg_lazyload " data-id="1" data-width="195.00" data-height="260.00" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/about-owner-main.jpg?bwg=1680029792" alt="About the Owner" title="About the Owner" style="max-height: 100%; width: 161.32px; max-width: initial;">
-    </button>
+      <button class="tabs" onclick="window.location.href = 'about.html';"> About the Owner 
+        <img decoding="async" class="buttonimg" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/about-owner-main.jpg?bwg=1680029792" >
+      </button>
 
-    <button onclick="window.location.href = 'whynative.html';"> Why Native Plants 
-      <img decoding="async" class="skip-lazy bwg_standart_thumb_img_0  bwg_lazyload " data-id="14" data-width="195.00" data-height="260.00" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/npic1.jpg?bwg=1680114834" alt="Why Native Plants" title="Why Native Plants" style="max-height: 100%; width: 161.32px; max-width: initial;">
-    </button>
+      <button class="tabs" onclick="window.location.href = 'whynative.html';"> Why Native Plants 
+        <img decoding="async" class="buttonimg" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/npic1.jpg?bwg=1680114834">
+      </button>
 
-    <button onclick="window.location.href = 'plants.html';"> Plant List 
-      <img decoding="async" class="skip-lazy bwg_standart_thumb_img_0  bwg_lazyload " data-id="15" data-width="195.00" data-height="260.00" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/sspic-2.jpg?bwg=1680114834" alt="Plant List" title="Plant List" style="max-height: 100%; width: 161.32px; max-width: initial;">
-    </button>
+      <button class="tabs" onclick="window.location.href = 'plants.html';"> Plant List 
+        <img decoding="async" class="buttonimg" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/sspic-2.jpg?bwg=1680114834" >
+      </button>
 
-    <button onclick="window.location.href = 'services.html';"> Sales and Services 
-      <img decoding="async" class="skip-lazy bwg_standart_thumb_img_0  bwg_lazyload " data-id="18" data-width="195.00" data-height="260.00" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/ss-pic-1.jpg?bwg=1680114834" alt="Sales and Services" title="Sales and Services" style="max-height: 100%; width: 161.32px; max-width: initial;">
-    </button> 
+      <button class="tabs" onclick="window.location.href = 'services.html';"> Sales and Services 
+        <img decoding="async" class="buttonimg" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/ss-pic-1.jpg?bwg=1680114834" >
+      </button> 
 
-    <button onclick="window.location.href = 'meadows.html';"> Thoughts on Meadows
-      <img decoding="async" class="skip-lazy bwg_standart_thumb_img_0  bwg_lazyload " data-id="17" data-width="195.00" data-height="260.00" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/mpic1-1.jpg?bwg=1680114834" alt="Thoughts on Meadows" title="Thoughts on Meadows" style="max-height: 100%; width: 161.32px; max-width: initial;">
-    </button> 
+      <button class="tabs" onclick="window.location.href = 'meadows.html';"> Thoughts on Meadows
+        <img decoding="async" class="buttonimg" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/mpic1-1.jpg?bwg=1680114834" >
+      </button> 
 
-    <button onclick="window.location.href = 'goldenrod.html';"> Goldenrod Myth 
-      <img decoding="async" class="skip-lazy bwg_standart_thumb_img_0  bwg_lazyload " data-id="16" data-width="195.00" data-height="260.00" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/gpic1.jpg?bwg=1680114834" alt="Goldenrod Myth" title="Goldenrod Myth" style="max-height: 100%; width: 161.32px; max-width: initial;">
-    </button> 
+      <button class="tabs" onclick="window.location.href = 'goldenrod.html';"> Goldenrod Myth 
+        <img decoding="async" class="buttonimg" src="https://solidagonativeplants.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/gpic1.jpg?bwg=1680114834" >
+      </button> 
 
-    <button onclick="window.location.href = 'contact.html';"> Contact Us 
-    </button> 
-    
-  </pages>
-
-  <div class="planttitle">
-    <div>
-      <h2>2024 Plant List</h2>
-    </div>
-    <div> <img class="plantcoverimg" decoding="async" class="aligncenter wp-image-286 size-thumbnail" src="https://solidagonativeplants.com/wp-content/uploads/2023/03/sspic-2-150x150.jpg" alt="" width="250" height="250">
-    </div>
-  </div>
-
-  <div class="plantsintro">
-    <p> All of my plants have been selected for both an important pollen 
-      and/or nectar source as well as larval host plants for native butterflies 
-      and moths, and all but a few are natives. The alien plants that I have 
-      added are non-invasive and they contribute favorably to the garden 
-      environment. The following is a list of seeds that have been planted 
-      for the 2023 season. The seedlings are planted in 2 ½” pots, and 
-      sold 3 for $10. Because these plants are seedlings, they are not 
-      identical to each other. I recommend planting 3 of the same kind of 
-      plant in a 18” triangle, to end up with a nice, slightly varied clump. 
-      This will also ensure cross pollination. Because most of these plants 
-      are also important seed sources for birds, I do not recommend dead-heading. 
-      I do recommend adding a pinch of bone meal at planting time. This will aid 
-      in rapid establishment. Once established, no further feeding is necessary, 
-      and most of the plants are very drought tolerant. An established meadow in 
-      my yard received no water during the drought of 2022, and still looked great. </p>
-
-    <p class="imageinstruction"> Please click the plant pictures for more information. </p>
-
-  <ul class="plantlist">
-    <li class = "listitem">
-      <div class="plantinfo">
-        <h4 class="general">Common Bluestar</h4>
-        <h4 class="scientific">Amsonia tabernaemontana</h4>
-      </div>
-      <div class="image">
-        <img class="plantimage" style="object-position: 0 20%" src="https://solidagonativeplants.com/wp-content/uploads/2023/04/Common-Bluestar-2.jpg">
-      </div>
+      <button class="tabs" onclick="window.location.href = 'contact.html';"> Contact Us 
+      </button> 
       
-    </li>
-    <li class = "listitem">
-      <div class="plantinfo">
-        <h4 class="general">Swamp Milkweed</h4>
-        <h4 class="scientific">Asclepias incarnata</h4>
+    </pages>
+  -->
+    <div class="pagetitle">
+      <div>
+        <h2>2024 Plant List</h2>
       </div>
-      <div class="image">        
-        <img class="plantimage"  src="https://solidagonativeplants.com/wp-content/uploads/2023/04/swamp-milkweed.jpg">
+      <div> <img class="plantcoverimg" decoding="async" class="aligncenter wp-image-286 size-thumbnail" src="https://solidagonativeplants.com/wp-content/uploads/2023/03/sspic-2-150x150.jpg" alt="" width="250" height="250">
       </div>
-    </li>
+    </div>
 
-    <li class = "listitem">
-      <div class="plantinfo">
-        <h4 class="general">Butterfly Weed</h4>
-        <h4 class="scientific">Asclepias tuberosa</h4>
-      </div>
-      <div class="image">        
-        <img class="plantimage"  src="https://solidagonativeplants.com/wp-content/uploads/2023/04/butterfly-weed.jpg">
-      </div>
-    </li>
+    <div class="plantsintro">
+      <p> All of my plants have been selected for both an important pollen 
+        and/or nectar source as well as larval host plants for native butterflies 
+        and moths, and all but a few are natives. The alien plants that I have 
+        added are non-invasive and they contribute favorably to the garden 
+        environment. The following is a list of seeds that have been planted 
+        for the 2023 season. The seedlings are planted in 2 ½” pots, and 
+        sold 3 for $10. Because these plants are seedlings, they are not 
+        identical to each other. I recommend planting 3 of the same kind of 
+        plant in a 18” triangle, to end up with a nice, slightly varied clump. 
+        This will also ensure cross pollination. Because most of these plants 
+        are also important seed sources for birds, I do not recommend dead-heading. 
+        I do recommend adding a pinch of bone meal at planting time. This will aid 
+        in rapid establishment. Once established, no further feeding is necessary, 
+        and most of the plants are very drought tolerant. An established meadow in 
+        my yard received no water during the drought of 2022, and still looked great. </p>
 
-    <li class = "listitem">
-      <div class="plantinfo">
-        <h4 class="general">New York Aster</h4>
-        <h4 class="scientific">Aster novi-belgii</h4>
-      </div>
-      <div class="image">        
-        <img class="plantimage"  src="https://solidagonativeplants.com/wp-content/uploads/2023/04/ny-aster-Copy.jpg">
-      </div>
-    </li>
-
-    <li class = "listitem">
-       <div class="plantinfo">
-        <h4 class="general">Pannicled Aster</h4>
-        <h4 class="scientific">Aster simplex</h4>
-      </div>
-      <div class="image">
-        <img class="plantimage"src="https://solidagonativeplants.com/wp-content/uploads/2023/04/pannicled-aster.jpg">
-      </div>
-    </li>
-
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
+      <p class="imageinstruction"> Please click the plant pictures for more information. </p>
+    </div>
     
-  </div>
+    <ul class="plantlist">
+      <li class = "listitem">
+        <div class="plantinfo">
+          <h4 class="general">Common Bluestar</h4>
+          <h4 class="scientific">Amsonia tabernaemontana</h4>
+        </div>
 
-  
+        <div class="image">
+          <button class="summary" >        
+            <img class="plantimage" style="object-position: 0 20%" src="https://solidagonativeplants.com/wp-content/uploads/2023/04/Common-Bluestar-2.jpg">
+          </button> 
+          
+          <div class="popup">
+      
+              <img class="summaryimage" style="object-position: 0 20%" src="https://solidagonativeplants.com/wp-content/uploads/2023/04/Common-Bluestar-2.jpg">
+              <h2 class="general">Common Bluestar</h2>
+              <h3 class="scientific">Amsonia tabernaemontana</h3>
+              <hr style="height:1px; width: 80%; border-width:0; color:black; background-color:black">
 
-</section>
+              <div class="summaryinfo">
+                <div>
+                  <p class="summarytop">Blooming Period</p>
+                  <p class="summarybottom">April-June</p>
+                </div>
+                <div>
+                  <p class="summarytop">Watering Frequency</p>
+                  <p class="summarybottom">Every 2-3 days</p>
+                </div>
+                <div>
+                  <p class="summarytop">Pollinators</p>
+                  <p class="summarybottom">Hummingbirds and Butterflies</p>
+                </div>
+              </div>
+              <hr style="height:1px; width: 80%; border-width:0; color:black; background-color:black">
+              <p class="blurb">Bluestar is a 3 foot clumping perennial with light blue flowers starting in June. They supply nectar to Morning Cloaks and other early butterflies. Beautiful fall color ends its season. This long lived plant does best with medium sun and moisture.</p>
+              <hr style="height:1px; width: 80%; border-width:0; color:black; background-color:black">
+              <button type="button" class="close">Close</button>
+      
+          </div>
+        
+        </div>
+
+      
+      </li>
+
+      <li class = "listitem">
+        <div class="plantinfo">
+          <h4 class="general">Swamp Milkweed</h4>
+          <h4 class="scientific">Asclepias incarnata</h4>
+        </div>
+        <div class="image">        
+          <button class="summary" >  
+            <img class="plantimage"  src="https://solidagonativeplants.com/wp-content/uploads/2023/04/swamp-milkweed.jpg">
+          </button>
+          <div class="popup">
+      
+            <img class="summaryimage"  src="https://solidagonativeplants.com/wp-content/uploads/2023/04/swamp-milkweed.jpg">
+            <h2 class="general">Swamp Milkweed</h2>
+            <h3 class="scientific">Asclepias incarnata</h3>
+            <hr style="height:1px; width: 80%; border-width:0; color:black; background-color:black">
+
+            <div class="summaryinfo">
+              <div>
+                <p class="summarytop">Blooming Period</p>
+                <p class="summarybottom">June-July</p>
+              </div>
+              <div>
+                <p class="summarytop">Watering Frequency</p>
+                <p class="summarybottom">Every 4-5 days</p>
+              </div>
+              <div>
+                <p class="summarytop">Pollinators</p>
+                <p class="summarybottom">Bees and Butterflies</p>
+              </div>
+            </div>
+            <hr style="height:1px; width: 80%; border-width:0; color:black; background-color:black">
+            <p class="blurb">This is a 3 – 4 foot clumping perennial with white and pink flowers blooming in July. It supplies nectar and pollen and is an essentail food plant for Monarch caterpillars and beautiful leaf beetles. It does best with medium sun and moisture.</p>
+            <hr style="height:1px; width: 80%; border-width:0; color:black; background-color:black">
+            <button type="button" class="close">Close</button>
+    
+        </div>  
+        </div>
+      </li>
+
+      <li class = "listitem">
+        <div class="plantinfo">
+          <h4 class="general">Common Milkweed</h4>
+          <h4 class="scientific">Asclepias syriaca</h4>
+        </div>
+        <div class="image">        
+          <button class="summary" >  
+            <img class="plantimage"  src="https://solidagonativeplants.com/wp-content/uploads/2023/04/swamp-milkweed.jpg">
+          </button>
+          <div class="popup">
+      
+            <img class="summaryimage"  src="https://solidagonativeplants.com/wp-content/uploads/2023/04/swamp-milkweed.jpg">
+            <h2 class="general">Common Milkweed</h2>
+            <h3 class="scientific">Asclepias syriaca</h3>
+            <hr style="height:1px; width: 80%; border-width:0; color:black; background-color:black">
+
+            <div class="summaryinfo">
+              <div>
+                <p class="summarytop">Blooming Period</p>
+                <p class="summarybottom">XYZ</p>
+              </div>
+              <div>
+                <p class="summarytop">Watering Frequency</p>
+                <p class="summarybottom">XYZ</p>
+              </div>
+              <div>
+                <p class="summarytop">Pollinators</p>
+                <p class="summarybottom">XYZ</p>
+              </div>
+            </div>
+            <hr style="height:1px; width: 80%; border-width:0; color:black; background-color:black">
+            <p class="blurb">This is a 3 – 4 foot clumping perennial with white and pink flowers blooming in July. It supplies nectar and pollen and is an essentail food plant for Monarch caterpillars and beautiful leaf beetles. It does best with medium sun and moisture.</p>
+            <hr style="height:1px; width: 80%; border-width:0; color:black; background-color:black">
+            <button type="button" class="close">Close</button>
+    
+        </div>  
+        </div>
+      </li>
+
+      <li class = "listitem">
+        <div class="plantinfo">
+          <h4 class="general">New York Aster</h4>
+          <h4 class="scientific">Aster novi-belgii</h4>
+        </div>
+        <div class="image">        
+          <img class="plantimage"  src="https://solidagonativeplants.com/wp-content/uploads/2023/04/ny-aster-Copy.jpg">
+        </div>
+      </li>
+
+      <li class = "listitem">
+        <div class="plantinfo">
+          <h4 class="general">Pannicled Aster</h4>
+          <h4 class="scientific">Aster simplex</h4>
+        </div>
+        <div class="image">
+          <img class="plantimage"src="https://solidagonativeplants.com/wp-content/uploads/2023/04/pannicled-aster.jpg">
+        </div>
+      </li>
+
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+      
+    
+
+    
+
+  </section>
 <content>
 
 </content>
